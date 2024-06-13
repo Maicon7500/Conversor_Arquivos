@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+h1{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.checkbox-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 800px;
+    margin: 0 auto;
+    
+}
+
+.checkbox-container input{
+    width: 1.3em;
+    height: 1.3em;
+    border-radius: 50%;
+    border: 1px solid;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.checkbox-container input:checked{
+    background-color: green;
+}
+
+.column1, .column2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.arrow-container{
+    position: absolute;
+}
+
+.arrow {
+    padding: 30px;
+    box-shadow: 2px -2px 0 1px #000 inset ;
+    border: solid black;
+    border-width: 0 0 2px 2px;
+    rotate:-130deg;
+}
+
+.checkbox-container label {
+    margin: 10px 0;
+}
+
+.envio-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 150px;
+}
+.envio-container input {
+    display: none;
+}
+
+.envio-container label {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size:x-large;
+    width: 700px;
+    height: 80px;
+    border: 5px solid #343434;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.arrow-container2 {
+    display: flex;
+    justify-content: center;
+    margin-top: -120px;
+}
+
+.arrow2 {
+    position: absolute;
+    padding: 30px;
+    box-shadow: 2px -2px 0 1px #000 inset ;
+    border: solid black;
+    border-width: 0 0 2px 2px;
+    rotate:-45deg;
+}
+
+.download-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 120px;
+    }
+
+.download-container label {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size:x-large;
+    width: 700px;
+    height: 80px;
+    border: 5px solid #343434;
+    padding: 20px;
+    border-radius: 5px;
+}
+.download-container a{
+    text-decoration: none;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .opcoes--checkbox{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: red;
+   
+}
+.input--checkbox {
+    width: 1.3em;
+    height: 1.3em;
+    border-radius: 50%;
+    border: 1px solid;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+    
+    
+}
+
+.input--checkbox:checked {
+    background-color: red;
+  }
+  
+.select_label {
+    width: 600px;
+    height: 40pc;
+   
+    border-radius: 60px;
+
+}
+ */
+  
