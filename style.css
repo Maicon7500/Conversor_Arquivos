@@ -1,27 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300;400;500;600;700&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    background: #696969;
 }
 
-h1{
+h1 {
     margin-top: 30px;
     text-align: center;
+    color: #fff;;
 }
 
-.checkbox-container{
+.checkbox-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 800px;
+    width: 450px;
     margin: 0 auto;
-    
+    font-weight: bold;
 }
 
-.checkbox-container input{
+.checkbox-container input {
     width: 1.3em;
     height: 1.3em;
     border-radius: 50%;
@@ -32,7 +34,7 @@ h1{
     cursor: pointer;
 }
 
-.checkbox-container input:checked{
+.checkbox-container input:checked {
     background-color: green;
 }
 
@@ -41,43 +43,52 @@ h1{
     flex-direction: column;
 }
 
-.arrow-container{
+.arrow-container {
     position: absolute;
 }
 
 .arrow {
     padding: 30px;
-    box-shadow: 2px -2px 0 1px #000 inset ;
+    box-shadow: 2px -2px 0 1px #000 inset;
     border: solid black;
     border-width: 0 0 2px 2px;
-    rotate:-130deg;
+    transform: rotate(-130deg);
 }
 
 .checkbox-container label {
     margin: 10px 0;
+    color: #D9D9D9;
 }
 
 .envio-container {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 150px;
+    margin: 150px 0;
 }
+
 .envio-container input {
     display: none;
 }
 
 .envio-container label {
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size:x-large;
     width: 700px;
     height: 80px;
-    border: 5px solid #343434;
-    padding: 20px;
+    display: inline-block;
+    padding: 30px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
     border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
     cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.envio-container label:hover {
+    background-color: #0056b3;
 }
 
 .arrow-container2 {
@@ -89,71 +100,54 @@ h1{
 .arrow2 {
     position: absolute;
     padding: 30px;
-    box-shadow: 2px -2px 0 1px #000 inset ;
+    box-shadow: 2px -2px 0 1px #000 inset;
     border: solid black;
     border-width: 0 0 2px 2px;
-    rotate:-45deg;
+    transform: rotate(-45deg);
 }
 
 .download-container {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 120px;
-    }
-
-.download-container label {
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size:x-large;
-    width: 700px;
-    height: 80px;
-    border: 5px solid #343434;
-    padding: 20px;
-    border-radius: 5px;
+    margin: 120px 0;
 }
-.download-container a{
+
+.download-container a {
     text-decoration: none;
     text-align: center;
 }
 
+.download-button {
+    width: 700px;
+    height: 80px;
+    display: inline-block;
+    padding: 30px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
 
+.download-button:hover {
+    background-color: #0056b3;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .opcoes--checkbox{
+/* Comentado por não estar em uso
+.opcoes--checkbox {
     width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
     background: red;
-   
 }
+
 .input--checkbox {
     width: 1.3em;
     height: 1.3em;
@@ -163,20 +157,15 @@ h1{
     -webkit-appearance: none;
     outline: none;
     cursor: pointer;
-    
-    
 }
 
 .input--checkbox:checked {
     background-color: red;
-  }
-  
+}
+
 .select_label {
     width: 600px;
     height: 40pc;
-   
     border-radius: 60px;
-
 }
- */
-  
+*/
